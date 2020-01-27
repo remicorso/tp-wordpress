@@ -1,0 +1,33 @@
+ul li {
+    list-style-type: none;
+}
+
+body {
+    background-color: #e7e7e7 !important;
+}
+
+
+#to-do-table th {
+    padding: 15px;
+    color: #e7e7e7;
+    text-align: center;
+    background-color: #2b2b2b;
+}
+
+#to-do-table td {
+    text-align: center;
+}
+
+#to-do-table tr:nth-child(odd) {
+    background-color: rgb(212, 212, 212);
+    border-bottom: 1px solid #e7e7e7;
+}
+
+#to-do-table tr:nth-child(even) {
+    background-color: #c0c0c0;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+#to-do-table tr:nth-last-child(-n+1) {
+    border-bottom: 1px solid #2b2b2b;
+}

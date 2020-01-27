@@ -1,0 +1,20 @@
+/*
+Theme Name: Fifactivity
+Description: Theme enfant du site Fifactivity
+Author: Rémi CORSO
+Author URI: https://rc-creation.fr
+Template: twentytwenty 
+Version: 0.1.0
+*/
+
+
+
+ul.social-menu,
+.menu-bottom .social-menu {
+    display: flex;
+    justify-content: center;
+}
+
+.site-description {
+    color: #fff !important;
+}
